@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+input {
+    height: 2.5rem;
+    width: 12rem;
+    font-size: 1.4rem;
+    text-align: center;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #c55d00;
+    outline: none;
+    color: #ff8c00;
+    Kra
+}
+
+input::placeholder {
+    color: #c55d00;
+}
+
+button {
+    border-radius: 10px;
+    height: 2.5rem;
+    font-size: 1.4rem;
+    padding: 0 1rem;
+    margin-left: 1rem;
+    background-color: #ff8c00;
+    outline: none;
+    border: none;
+    color: #c55d00;
+    text-shadow: 1px -3px 1px  rgba(0, 0, 0, 0.7);
+    box-shadow: 2px 4px 0 rgba(0, 0, 0, 0.4),
+        -1px -1px 4px 0 rgba(255, 255, 255, 0.6);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 2rem 0;
+
+}
+
+.station {
+    width: 360px;
+    height: 75vh;
+    font-size: 2rem;
+    color: #ff8c00;
+    text-shadow: 1px -3px 3px #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgb(206, 208, 243) 0%, rgb(134, 199, 243) 35%, #4671da 100%);
+    padding: 1rem;
+    box-shadow: 20px 20px 50px rgba(15, 13, 13, 0.5);
+    border-radius: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: bluar(5px);
+    position: relative;
+}
+
+span {
+    font-size: 4rem;
+
+}
+
+i {
+    color: #ffc107;
+}
+
+.rain,
+.clouds,
+.windDeg,
+.windSpeed,
+.pressure {
+    align-self: flex-start;
+    padding-left: 1rem;
+}
+.logo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+}
