@@ -21,7 +21,7 @@ city1.value = "";
 
       }).then(function (json) {
        
-        console.log(json)
+       
         let name =json.name;
         let rain = Object.assign({}, json.rain);
         let temp =json.main.temp;
@@ -50,4 +50,5 @@ city1.value = "";
   }
   
   getRandom()
+  
 }
